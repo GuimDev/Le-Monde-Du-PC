@@ -13,3 +13,5 @@ Le Monde Du PC a avant tout été créé pour le partage des connaissances et so
 - CSS 3
 - PHP 7
 - Javascript et/ou jQuery 
+
+## [License](https://github.com/NielsTRS/Le-Monde-Du-PC/blob/master/LICENSE)
