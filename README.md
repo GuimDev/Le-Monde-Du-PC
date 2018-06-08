@@ -8,6 +8,10 @@ Le Monde Du PC a avant tout été créé pour le partage des connaissances et so
 </tr>
 </table>
 
+## Site
+Le Monde du site est un site consacré aux nouvelles technologies, aux news high-tech et également aux tutoriels.
+Le site à la particularité d'en plus d'être open-source, d'être dévéloppé et maintenant par des jeunes geek et passionné d'informatique.
+
 ## Technologie
 - HTML 5
 - CSS 3
