@@ -1,4 +1,4 @@
-![Le Monde Du PC](https://www.lemondedupc.fr/groups/images/logo/img.jpg)
+![Le Monde Du PC](https://github.com/NielsTRS/Le-Monde-Du-PC/blob/master/src/images/logos/planetes.jpg)
 # [Le Monde Du PC](https://www.lemondedupc.fr)
 <table>
 <tr>
