@@ -8,7 +8,7 @@ Le Monde Du PC a avant tout été créé pour le partage des connaissances et so
 </tr>
 </table>
 
-![Logo](https://github.com/NielsTRS/Le-Monde-Du-PC/blob/master/src/images/favicons/android-chrome-192x192.png)
+![Logo](https://github.com/NielsTRS/Le-Monde-Du-PC/blob/master/src/images/logos/android-chrome-192x192.png)
 
 ## Site
 Le Monde du site est un site consacré aux nouvelles technologies, aux news high-tech et également aux tutoriels.
