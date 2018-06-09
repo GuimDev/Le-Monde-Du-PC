@@ -14,6 +14,7 @@ Le site à la particularité d'en plus d'être open-source, d'être dévéloppé
 
 Une version 2 du site est actuellement en cours de développement et la publication de celle-ci sur le site est prévu en septembre 2018.
 
+
 ## Technologie
 - HTML 5
 - CSS 3
