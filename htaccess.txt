@@ -1,4 +1,4 @@
-# Need to remane this file to ".htaccess" if you want that the file work
+# Need to rename this file to ".htaccess" if you want that the file work
 
 # security
 	# deny files listing
