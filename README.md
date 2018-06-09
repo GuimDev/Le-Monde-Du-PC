@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-Le Monde Du PC a avant tout été créé pour le partage des connaissances et son accessibilité. Parce que les sujets marquants du numérique et du high tech ne doivent pas être uniquement compris par ceux qui les maitrisent.
+Le Monde Du PC a avant tout été créé pour le partage des connaissances et son accessibilité. Parce que les sujets marquants du numérique et du high tech ne doivent pas être uniquement compris par ceux qui les maitrisent. test
 </td>
 </tr>
 </table>
