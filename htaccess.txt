@@ -1,3 +1,5 @@
+# Need to remane this file to ".htaccess" if you want that the file work
+
 # security
 	# deny files listing
 		#Options -Indexes
