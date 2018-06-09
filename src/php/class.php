@@ -40,9 +40,9 @@ class Totp {
 		if(!preg_match('/^[ABCDEFGHIJKLMNOPQRSTUVWXYZ234567]+$/', $b32, $match)){
 			throw new Exception('Invalid characters in the base32 string.');
 		}
-		$l 	= strlen($b32);
-		$n	= 0;
-		$j	= 0;
+		$l = strlen($b32);
+		$n = 0;
+		$j = 0;
 		$binary = '';
 		for ($i = 0; $i < $l; $i++) {
 			$n = $n << 5; 				
