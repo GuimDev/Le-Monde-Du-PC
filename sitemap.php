@@ -1,0 +1,1 @@
+file to create de sitemap for bots like google
