@@ -1,1 +1,3 @@
-file to sign in and verify the account
+<?php 
+// file to sign in and verify the account
+?>

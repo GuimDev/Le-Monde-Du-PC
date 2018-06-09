@@ -16,5 +16,4 @@
 // 12. Durée
 // 13. Droit applicable
 
-require __DIR__.'/../../src/php/functions.php';
 ?>

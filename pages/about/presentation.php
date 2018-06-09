@@ -1,1 +1,3 @@
-file to present the team and the partners
+<?php 
+// file to present the team and the partners
+?>

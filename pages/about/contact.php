@@ -1,1 +1,3 @@
-file to contact us
+<?php 
+// file to contact us
+?>

@@ -1,1 +1,3 @@
-file to execute specefic php script
+<?php 
+// file to execute specefic php script
+?>

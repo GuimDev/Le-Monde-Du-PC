@@ -1,1 +1,3 @@
-file to log in and log out
+<?php 
+// file to log in and log out
+?>
