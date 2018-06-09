@@ -1,0 +1,40 @@
+# security
+	# deny files listing
+		#Options -Indexes
+
+	# deny access to specific file
+		<files .htaccess>
+			order allow,deny
+			deny from all
+		</files>
+		<files config.php>
+			order allow,deny
+			deny from all
+		</files>
+
+# force 
+	# the https mode
+		#RewriteEngine On
+		#RewriteCond %{HTTPS} !=on
+		#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+	# force the www mode 
+		#RewriteEngine On
+		#RewriteCond %{HTTP_HOST} !^www\.
+		#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# optimisation
+	# file compression
+		SetOutputFilter DEFLATE 
+		AddOutputFilterByType DEFLATE text/plain text/xml text/html text/css image/svg+xml application/xhtml+xml application/xml application/rss+xml application/atom_xml application/x-javascript application/x-httpd-php application/x-httpd-fastphp application/x-httpd-eruby
+
+	# cache system
+		<FilesMatch ".(ico|jpg|jpeg|png|gif|swf)">
+			Header set Cache-Control "max-age=43200, public"
+		</FilesMatch>
+		<FilesMatch ".(js|css)">
+			Header set Cache-Control "max-age=21600, public"
+		</FilesMatch>
+		<FilesMatch ".(php|html|htm|xml)">
+			Header set Cache-Control "max-age=10800, public"
+		</FilesMatch>
