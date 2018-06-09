@@ -1,4 +1,4 @@
-![Le Monde Du PC](https://www.lemondedupc.fr/groups/images/logo/img.jpg)
+![Le Monde Du PC](https://github.com/NielsTRS/Le-Monde-Du-PC/blob/master/src/images/favicons/android-chrome-512x512.png)
 # [Le Monde Du PC](https://www.lemondedupc.fr)
 <table>
 <tr>
