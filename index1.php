@@ -42,6 +42,7 @@ require __DIR__.'/src/php/functions.php';
         <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
         <li><a href="#" title="Google +"><i class="fab fa-google-plus-g"></i></a></li>
         <li><a href="#" title="Discord"><i class="fab fa-discord"></i></a></li>
+        <li><a href="#" title="GitHub"><i class="fab fa-github"></i></a></li>
       </ul>
     </nav>
     <!-- Branding -->
@@ -138,7 +139,7 @@ require __DIR__.'/src/php/functions.php';
     </article>
     <!-- Footer down -->
     <article>
-      <p><span class="notranslate">Le Monde Du PC </span>| Version : 2.0</p>
+      <p><span class="notranslate">Le Monde Du PC </span>| <a href="#" title="GitHub">Version : 2.0</a></p>
     </article>
   </footer>
 
