@@ -51,6 +51,7 @@ require __DIR__.'/src/php/functions.php';
       <h1 class="notranslate title"><a href="<?php echo $config['site']['domain']; ?>"><?php echo $config['site']['name']; ?></a></h1>
       <p class="description"><b>Retrouvez tout nos articles sur la programmation, le développement web, le high tech et bien plus encore !</b></p>
     </div>
+
     <!-- Menu down -->
     <nav>
       <ul>
