@@ -12,18 +12,22 @@ function connexion_bdd(){
 }
 
 // function to verify is the user have some permissions
-function verify_permission($id_member, $status){
+function verify_permission($id_member, $status, $token_get, $token_purpose){
 	if(isset($id_member) AND empty($id_member) === false AND isset($status) AND empty($status) === false){
-		$id_member = intval($id_member);
-		$status = intval($status);
-		$bdd = connexion_bdd();
-		$verify_user = $bdd->prepare('SELECT permission FROM list_members WHERE id = ?');
-		$verify_user->execute(array($id_member));
-		$user_info = $verify_user->fetch();
-		if(intval($user_info['permission']) === $status){
-			return true;
-		} else {
-			return false;
+		if(isset($token_get) AND empty($token_get) === false AND isset($token_purpose) AND empty($token_purpose)){
+			$id_member = intval($id_member);
+			$status = intval($status);
+			$token_get = strval($token_get);
+			$token_purpose = strval($token_purpose);
+			$bdd = connexion_bdd();
+			$verify_user = $bdd->prepare('SELECT permission FROM list_members WHERE id = ?');
+			$verify_user->execute(array($id_member));
+			$user_info = $verify_user->fetch();
+			if(intval($user_info['permission']) === $status AND $token_get === $token_purpose){
+				return true;
+			} else {
+				return false;
+			}
 		}
 	}
 }
