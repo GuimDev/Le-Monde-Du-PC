@@ -20,7 +20,7 @@ function verify_permission($id_member, $status){
 		$verify_user = $bdd->prepare('SELECT permission FROM list_members WHERE id = ?');
 		$verify_user->execute(array($id_member));
 		$user_info = $verify_user->fetch();
-		if($user_info['permission'] == $status){
+		if(intval($user_info['permission']) === $status){
 			return true;
 		} else {
 			return false;
