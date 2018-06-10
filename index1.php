@@ -6,13 +6,13 @@ require __DIR__.'/src/php/functions.php';
 <head>
   <!-- Charset -->
   <meta charset="UTF-8" />
-  <!-- Titre -->
+  <!-- Title -->
   <title class="notranslate">De l'informatique, des astuces et des tutoriels - <?php echo $config['site']['name']; ?></title>
   <!--Description-->
   <meta name="description" content="Retrouvez tous les articles de <?php echo $config['site']['name']; ?> sur la programmation, le développement web, le high tech et bien plus encore sur <?php echo $config['site']['domain']; ?> !" />
-  <!-- Modification rendu mobile -->
+  <!-- Meta for mobiles -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-  <!-- Icones -->
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="src/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicons/favicon-16x16.png">
