@@ -32,4 +32,48 @@ function verify_permission($id_member, $status, $token_get, $token_purpose){
 	}
 }
 
+// function to get the real ip
+function get_ip() {
+    if(isset($_SERVER['HTTP_CLIENT_IP'])) {
+        return $_SERVER['HTTP_CLIENT_IP'];
+    } else if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        return $_SERVER['HTTP_X_FORWARDED_FOR'];
+    } else {
+        return (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '');
+    }
+}
+
+// function to verify is the maintenance mode is active
+function is_maintenance(){
+	$bdd = connexion_bdd();
+    $maintenance = $bdd->query('SELECT ip, maintenance_mode FROM administration_options');
+    $maintenance = $maintenance->fetch();
+    if(intval($maintenance['maintenance_mode']) === 1 AND get_ip() !== $maintenance['ip']){
+        exit('
+            <!DOCTYPE html>
+				<html>
+    				<head>
+        				<title>Site en maintenance - Le Monde Du PC</title>
+        				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        				<meta name="viewport" content="width=device-width, initial-scale=1" />
+        				<style type="text/css">
+            				body { text-align: center; padding: 10%; font: 20px Helvetica, sans-serif; color: #333; }
+            				h1 { font-size: 30px; margin: 0; }
+            				article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
+            				.signature { color: #dc8100; }
+        				</style>
+    				</head>
+    			<body>
+        			<article>
+            			<h1>Site temporairement inaccessible !</h1>
+            			<p>Une maintenance est acutellement en cours. Revenez bientôt.</p>
+            			<p>Nous nous excusons pour tout inconvénient.</p>
+            			<p>&mdash; <span class="signature">Le Monde Du PC</span></p>
+        			</article>
+    			</body>
+			</html>
+        '); 
+    }
+}
+
 ?>
