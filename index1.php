@@ -96,7 +96,7 @@ require __DIR__.'/src/php/functions.php';
     <article>
       <h1><i class="fas fa-newspaper"></i> Nos dernières publications :</h1>
       <section>
-        <img src="src/images/logo/favicon.png" alt="Image" style="width: 200px;" /> 
+        <img src="src/images/logos/android-chrome-192x192.png" alt="Image" /> 
         <header>
           <h2><a href="#">FLARE : Trouvez vos coéquipiers pour jouer en ligne !</a></h2>
           <address><i class="fas fa-user"></i><a href="#" rel="author">LéoGarret</a></address>
