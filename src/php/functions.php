@@ -44,7 +44,7 @@ function get_ip() {
 }
 
 // function to verify is the maintenance mode is active
-function is_maintenance(){
+function maintenance_mode(){
 	$bdd = connexion_bdd();
     $maintenance = $bdd->query('SELECT ip, maintenance_mode FROM administration_options');
     $maintenance = $maintenance->fetch();
