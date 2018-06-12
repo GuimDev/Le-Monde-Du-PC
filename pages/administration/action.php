@@ -1,6 +1,6 @@
 <?php 
 // file to add/edit/remove :
-// - articles (need a verification to be posted)
+// - articles (need a verification to be posted, the editor of the article or every corrector can modify an article)
 // - news (do not need a verification to be poster)
 // - members 
 // - partners 
