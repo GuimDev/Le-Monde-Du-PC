@@ -7,7 +7,7 @@ maintenance_mode();
 
 if(isset($_GET['action']) AND empty($_GET['action']) === false){
 	$action = strval($_GET['action']);
-	if(isset($_SESSION['user_connected']) AND empty($_SESSION['user_connected'])){ // if the user is already connected
+	if(isset($_SESSION['user_connected']) AND empty($_SESSION['user_connected']) === false){ // if the user is already connected
 		if($action === 'deconnexion'){ // deconnexion
 			$_SESSION = array();
 			if(ini_get('session.use_cookies')){ // destroy all the session
