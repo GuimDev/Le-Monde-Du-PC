@@ -16,8 +16,8 @@ if(isset($_GET['action']) AND empty($_GET['action']) === false){
         			$params['secure'], $params['httponly']
     			);
 			}
-			header('Location: '.$config['site']['domain'].$_SERVER['PHP_SELF'].'?action=connexion');
-		} else { // redirection
+			// redirection
+		} else if($action === 'connexion') { // redirection
 
 		}
 	} else { 
