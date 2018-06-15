@@ -43,3 +43,14 @@
 		<FilesMatch ".(php|html|htm|xml)">
 			Header set Cache-Control "max-age=10800, public"
 		</FilesMatch>
+
+# error
+
+# redirection
+	# members
+
+	# administration
+
+	# post
+
+	# about
