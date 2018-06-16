@@ -10,4 +10,5 @@
 // fonction "remove" :
 // 	- not me : not a real remove, it's just not show anymore on the site but steel in the database
 // 	- me : a real remove, delete it from the database
+require __DIR__.'/../../src/php/functions.php';
 ?>

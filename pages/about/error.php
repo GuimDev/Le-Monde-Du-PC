@@ -1,4 +1,4 @@
 <?php 
-// file to present the team and the partners
+// file to have personal errors
 require __DIR__.'/../../src/php/functions.php';
 ?>
