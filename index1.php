@@ -13,11 +13,11 @@ require __DIR__.'/src/php/functions.php';
   <!-- Meta for mobiles -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="src/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="src/images/favicons/site.webmanifest">
-  <link rel="mask-icon" href="src/images/favicons/safari-pinned-tab.svg" color="#00a0ce">
+  <link rel="apple-touch-icon" sizes="180x180" href="src/images/logos/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/images/logos/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="src/images/logos/favicon-16x16.png">
+  <link rel="manifest" href="src/images/logos/site.webmanifest">
+  <link rel="mask-icon" href="src/images/logos/safari-pinned-tab.svg" color="#00a0ce">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <!-- CSS -->
@@ -47,7 +47,6 @@ require __DIR__.'/src/php/functions.php';
     </nav>
     <!-- Branding -->
     <div>
-      <a href="<?php echo $config['site']['domain']; ?>"><img src="src/images/logo/favicon.png" alt="" style="width: 100px;" /> </a>
       <h1 class="notranslate title"><a href="<?php echo $config['site']['domain']; ?>"><?php echo $config['site']['name']; ?></a></h1>
       <p class="description"><b>Retrouvez tout nos articles sur la programmation, le développement web, le high tech et bien plus encore !</b></p>
     </div>
